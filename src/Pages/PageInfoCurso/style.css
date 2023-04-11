@@ -1,0 +1,128 @@
+.container-page-info-curso {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.containerCursoInfoDetails {
+    width: 100%;
+    min-height: 90vh;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cursoDetailBox {
+    width: 80%;
+    display: flex;
+    margin-top: 3rem;
+    gap: 20px;
+    position: relative;
+}
+
+.cursoDetailBox h2 {
+    font-weight: 600;
+    font-size: 35px;
+    width: 90%;
+}
+
+.cursoDetailBox img {
+    max-width: 150px;
+}
+
+.cardBoxDetails {
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-details-matricula {
+    width: 30%;
+}
+
+.box-details-curso {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardBoxDetails p {
+    text-align: center;
+}
+
+.cardBoxDetails h2 {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.modalidadebox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.modalidadebox button {
+    background-color: transparent;
+    border: 1px solid #4345cf;
+    padding: 10px;
+    border-radius: 10px;
+    color: #4345cf;
+    transition: 0.3s ease;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.modalidadebox button:hover {
+    background-color: #8587ff8e;
+}
+
+#btnGarantirbolsa {
+    position: absolute;
+    bottom: 30px;
+    width: 90%;
+    height: 40px;
+    background-color: #4345cf;
+    color: #fff;
+    font-size: 18px;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    border-radius: 10px;
+}
+
+.Box-info-details-curso {
+    width: 90%;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+@media(max-width:500px) {
+    .cursoDetailBox {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-details-curso{
+        width: 100%;
+        align-items: center;
+    }
+    .box-details-matricula{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cursoDetailBox h2{
+        font-size: 18px;
+        text-align: center;
+    }
+}

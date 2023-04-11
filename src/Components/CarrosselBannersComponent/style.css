@@ -1,0 +1,16 @@
+.slide-container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.slideBox {
+    width: 100%;
+    height: 100vh;
+}
+
+@media(max-width:500px) {
+    .slideBox {
+        height: 400px;
+    }
+}
